@@ -1,0 +1,7 @@
+{
+  "name": "NOTIFICACIONESFIREBASE",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

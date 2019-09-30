@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>notificionEnvio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-row>
+      <ion-col>
+        <ion-label>Titulo de La notificacion</ion-label>
+        <ion-input type="text" placeholder="Introduzca el titulo de la notificacion" [(ngModel)]="title"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label>Mensaje de La notificacion</ion-label>
+        <ion-input type="text" placeholder="Introduzca el mensaje de la notificacion" [(ngModel)]="body"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" (click)="send()" color="success">Enviar Notificacion</ion-button>
+      </ion-col>
+    </ion-row>
+</ion-content>
